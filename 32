@@ -1,0 +1,10 @@
+l=int(input("num1:"))
+u=int(input("num2:"))
+result=[]
+for i in range(l,u+1):
+    num=int(i**0.5)
+    if num*num==i:
+        dig_sum=sum(map(int,str(num)))
+        if dig_sum<10:
+            result.append(i)
+print(result)
