@@ -1,0 +1,6 @@
+#dollars to rupees
+def convert(n):
+        return n*83
+    
+n=int(input())
+print(convert(n))
