@@ -1,0 +1,5 @@
+import statistics
+l=[1,5,8,6,3]
+print("mean",statistics.mean(l))
+print("median",statistics.median(l))
+print("mode",statistics.mode(l))
